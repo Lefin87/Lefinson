@@ -1,11 +1,15 @@
-
 summa = float(input('Введите сумму вложения:')) # вводим сумму
 procent = float(input('Введите процент:')) # вводим процент
 proc_god = summa / 100 * procent # тут просто высчитываю  сумму годового процента
-proc_five = ((summa + proc_god) / 100 * procent) * 5  # Я математик от бога) я так считаю
-denga = summa + proc_god + proc_five # если я верно понял условие что человек вкладывает 5000 и +
+vklad = summa + proc_god
+one = (vklad / 100 * procent) + vklad
+two = (one / 100 * procent) + one
+free = (two / 100 * procent) + two
+four = (free / 100 * procent) + free
+five = (four / 100 * procent) + four
+# denga = summa + proc_god + proc_five # если я верно понял условие что человек вкладывает 5000 и +
 #годовой процент то тут все верно.
-print(f'Cумма вклада через 5 лет составит: {denga}')
+print(f'Cумма вклада через 5 лет составит: {five}')
 
 
 #______________________________задача номер 2 ______________
