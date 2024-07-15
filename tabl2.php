@@ -39,7 +39,7 @@
 <?php
 
 
-$mysqli = new mysqli("localhost", "u0921165_steklof", "W8t3O0a312", "u0921165_steklof");
+$mysqli = new mysqli("localhost", "u0921165_steklof", "", "u0921165_steklof");
 $mysqli->set_charset('utf8');
 
 
